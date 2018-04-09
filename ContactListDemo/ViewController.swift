@@ -23,7 +23,7 @@ class ViewController: UIViewController, EPPickerDelegate {
     
     }
     @IBAction func ShowButtonTapped(_ sender: Any) {
-        let contactPickerScene = EPContactsPicker(delegate: self, multiSelection:true, subtitleCellType: SubtitleCellValue.email)
+        let contactPickerScene = EPContactsPicker(delegate: self, multiSelection:true, subtitleCellType: SubtitleCellValue.phoneNumber)
         let navigationController = UINavigationController(rootViewController: contactPickerScene)
         self.present(navigationController, animated: true, completion: nil)
     }
@@ -44,7 +44,7 @@ class ViewController: UIViewController, EPPickerDelegate {
     var msg : String = ""
     for contact in contacts {
         print("\(contact.displayName())")
-        
+       // print("ContactId ==>\(contact.contactId)")
          print("\(contact.phoneNumbers)")
        
         for phonenumber in contact.phoneNumbers

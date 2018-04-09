@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pods/EPContactsPicker/Pods/EPContactsPicker.swift"
-            timestampString = "544953847.516308"
+            timestampString = "544969494.187536"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "492"
-            endingLineNumber = "492"
+            startingLineNumber = "508"
+            endingLineNumber = "508"
             landmarkName = "onTouchDoneButton()"
             landmarkType = "7">
             <Locations>
@@ -26,11 +26,11 @@
                   moduleName = "ContactListDemo"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/pragati/Desktop/ContactListDemo/Pods/EPContactsPicker/Pods/EPContactsPicker.swift"
-                  timestampString = "544953411.528337"
+                  timestampString = "544969386.159758"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "492"
-                  endingLineNumber = "492"
+                  startingLineNumber = "508"
+                  endingLineNumber = "508"
                   offsetFromSymbolStart = "20">
                </Location>
                <Location
@@ -41,11 +41,11 @@
                   moduleName = "ContactListDemo"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/pragati/Desktop/ContactListDemo/Pods/EPContactsPicker/Pods/EPContactsPicker.swift"
-                  timestampString = "544953411.531569"
+                  timestampString = "544969386.163537"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "493"
-                  endingLineNumber = "493"
+                  startingLineNumber = "509"
+                  endingLineNumber = "509"
                   offsetFromSymbolStart = "28">
                </Location>
                <Location
@@ -56,11 +56,11 @@
                   moduleName = "EPContactsPicker"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/pragati/Desktop/ContactListDemo/Pods/EPContactsPicker/Pods/EPContactsPicker.swift"
-                  timestampString = "544953411.534492"
+                  timestampString = "544969386.4301651"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "492"
-                  endingLineNumber = "492"
+                  startingLineNumber = "508"
+                  endingLineNumber = "508"
                   offsetFromSymbolStart = "20">
                </Location>
                <Location
@@ -71,11 +71,11 @@
                   moduleName = "EPContactsPicker"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/pragati/Desktop/ContactListDemo/Pods/EPContactsPicker/Pods/EPContactsPicker.swift"
-                  timestampString = "544953411.537136"
+                  timestampString = "544969386.434299"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "493"
-                  endingLineNumber = "493"
+                  startingLineNumber = "509"
+                  endingLineNumber = "509"
                   offsetFromSymbolStart = "28">
                </Location>
             </Locations>
@@ -88,11 +88,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pods/EPContactsPicker/Pods/EPContactsPicker.swift"
-            timestampString = "544953847.516866"
+            timestampString = "544969494.187659"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "415"
-            endingLineNumber = "415"
+            startingLineNumber = "375"
+            endingLineNumber = "375"
             landmarkName = "tableView(_:didSelectRowAt:)"
             landmarkType = "7">
             <Locations>
@@ -104,12 +104,12 @@
                   moduleName = "ContactListDemo"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/pragati/Desktop/ContactListDemo/Pods/EPContactsPicker/Pods/EPContactsPicker.swift"
-                  timestampString = "544953411.546697"
+                  timestampString = "544969386.188521"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "416"
-                  endingLineNumber = "416"
-                  offsetFromSymbolStart = "9356">
+                  startingLineNumber = "376"
+                  endingLineNumber = "376"
+                  offsetFromSymbolStart = "5336">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -119,12 +119,12 @@
                   moduleName = "EPContactsPicker"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/pragati/Desktop/ContactListDemo/Pods/EPContactsPicker/Pods/EPContactsPicker.swift"
-                  timestampString = "544953411.549266"
+                  timestampString = "544969386.44025"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "416"
-                  endingLineNumber = "416"
-                  offsetFromSymbolStart = "9356">
+                  startingLineNumber = "376"
+                  endingLineNumber = "376"
+                  offsetFromSymbolStart = "5336">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -136,11 +136,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pods/EPContactsPicker/Pods/EPContactsPicker.swift"
-            timestampString = "544953847.517251"
+            timestampString = "544969494.18775"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "371"
-            endingLineNumber = "371"
+            startingLineNumber = "374"
+            endingLineNumber = "374"
             landmarkName = "tableView(_:didSelectRowAt:)"
             landmarkType = "7">
             <Locations>
@@ -152,12 +152,12 @@
                   moduleName = "ContactListDemo"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/pragati/Desktop/ContactListDemo/Pods/EPContactsPicker/Pods/EPContactsPicker.swift"
-                  timestampString = "544953411.555881"
+                  timestampString = "544969386.203065"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "371"
-                  endingLineNumber = "371"
-                  offsetFromSymbolStart = "4640">
+                  startingLineNumber = "374"
+                  endingLineNumber = "374"
+                  offsetFromSymbolStart = "5040">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -167,12 +167,12 @@
                   moduleName = "EPContactsPicker"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/pragati/Desktop/ContactListDemo/Pods/EPContactsPicker/Pods/EPContactsPicker.swift"
-                  timestampString = "544953411.558406"
+                  timestampString = "544969386.445863"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "371"
-                  endingLineNumber = "371"
-                  offsetFromSymbolStart = "4640">
+                  startingLineNumber = "374"
+                  endingLineNumber = "374"
+                  offsetFromSymbolStart = "5040">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -184,11 +184,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pods/EPContactsPicker/Pods/EPContactsPicker.swift"
-            timestampString = "544953847.5175869"
+            timestampString = "544969494.187834"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "370"
-            endingLineNumber = "370"
+            startingLineNumber = "381"
+            endingLineNumber = "381"
             landmarkName = "tableView(_:didSelectRowAt:)"
             landmarkType = "7">
             <Locations>
@@ -200,12 +200,12 @@
                   moduleName = "ContactListDemo"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/pragati/Desktop/ContactListDemo/Pods/EPContactsPicker/Pods/EPContactsPicker.swift"
-                  timestampString = "544953411.566"
+                  timestampString = "544969386.208819"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "370"
-                  endingLineNumber = "370"
-                  offsetFromSymbolStart = "4352">
+                  startingLineNumber = "381"
+                  endingLineNumber = "381"
+                  offsetFromSymbolStart = "6100">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -215,12 +215,186 @@
                   moduleName = "EPContactsPicker"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/pragati/Desktop/ContactListDemo/Pods/EPContactsPicker/Pods/EPContactsPicker.swift"
-                  timestampString = "544953411.5688061"
+                  timestampString = "544969386.452224"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "370"
-                  endingLineNumber = "370"
-                  offsetFromSymbolStart = "4352">
+                  startingLineNumber = "381"
+                  endingLineNumber = "381"
+                  offsetFromSymbolStart = "6100">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/EPContactsPicker/Pods/EPContactsPicker.swift"
+            timestampString = "544969494.187927"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "311"
+            endingLineNumber = "311"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ContactListDemo.EPContactsPicker.tableView(__ObjC.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __ObjC.UITableViewCell"
+                  moduleName = "ContactListDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pragati/Desktop/ContactListDemo/Pods/EPContactsPicker/Pods/EPContactsPicker.swift"
+                  timestampString = "544968410.898562"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "310"
+                  endingLineNumber = "310"
+                  offsetFromSymbolStart = "2964">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (ContactListDemo.EPContact) -&gt; Swift.Bool in implicit closure #1 : @autoclosure () throws -&gt; Swift.Bool in ContactListDemo.EPContactsPicker.tableView(__ObjC.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __ObjC.UITableViewCell"
+                  moduleName = "ContactListDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pragati/Desktop/ContactListDemo/Pods/EPContactsPicker/Pods/EPContactsPicker.swift"
+                  timestampString = "544968410.901176"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "297"
+                  endingLineNumber = "297"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EPContactsPicker.EPContactsPicker.tableView(__ObjC.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __ObjC.UITableViewCell"
+                  moduleName = "EPContactsPicker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pragati/Desktop/ContactListDemo/Pods/EPContactsPicker/Pods/EPContactsPicker.swift"
+                  timestampString = "544968411.345963"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "310"
+                  endingLineNumber = "310"
+                  offsetFromSymbolStart = "2964">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (EPContactsPicker.EPContact) -&gt; Swift.Bool in implicit closure #1 : @autoclosure () throws -&gt; Swift.Bool in EPContactsPicker.EPContactsPicker.tableView(__ObjC.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __ObjC.UITableViewCell"
+                  moduleName = "EPContactsPicker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pragati/Desktop/ContactListDemo/Pods/EPContactsPicker/Pods/EPContactsPicker.swift"
+                  timestampString = "544968411.350209"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "297"
+                  endingLineNumber = "297"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/EPContactsPicker/Pods/EPContactCell.swift"
+            timestampString = "544967413.589449"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "updateContactsinUI(_:indexPath:subtitleType:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ContactListDemo.EPContactCell.updateContactsinUI(ContactListDemo.EPContact, indexPath: Foundation.IndexPath, subtitleType: ContactListDemo.SubtitleCellValue) -&gt; ()"
+                  moduleName = "ContactListDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pragati/Desktop/ContactListDemo/Pods/EPContactsPicker/Pods/EPContactCell.swift"
+                  timestampString = "544966242.01309"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EPContactsPicker.EPContactCell.updateContactsinUI(EPContactsPicker.EPContact, indexPath: Foundation.IndexPath, subtitleType: EPContactsPicker.SubtitleCellValue) -&gt; ()"
+                  moduleName = "EPContactsPicker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pragati/Desktop/ContactListDemo/Pods/EPContactsPicker/Pods/EPContactCell.swift"
+                  timestampString = "544966242.015666"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "40">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/EPContactsPicker/Pods/EPContactCell.swift"
+            timestampString = "544967413.589517"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "updateSubtitleBasedonType(_:contact:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ContactListDemo.EPContactCell.updateSubtitleBasedonType(ContactListDemo.SubtitleCellValue, contact: ContactListDemo.EPContact) -&gt; ()"
+                  moduleName = "ContactListDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pragati/Desktop/ContactListDemo/Pods/EPContactsPicker/Pods/EPContactCell.swift"
+                  timestampString = "544966242.022664"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EPContactsPicker.EPContactCell.updateSubtitleBasedonType(EPContactsPicker.SubtitleCellValue, contact: EPContactsPicker.EPContact) -&gt; ()"
+                  moduleName = "EPContactsPicker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pragati/Desktop/ContactListDemo/Pods/EPContactsPicker/Pods/EPContactCell.swift"
+                  timestampString = "544966242.025287"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "32">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -232,45 +406,205 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pods/EPContactsPicker/Pods/EPContactsPicker.swift"
-            timestampString = "544953847.517915"
+            timestampString = "544969494.188067"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "378"
-            endingLineNumber = "378"
-            landmarkName = "tableView(_:didSelectRowAt:)"
+            startingLineNumber = "124"
+            endingLineNumber = "124"
+            landmarkName = "init(delegate:)"
             landmarkType = "7">
             <Locations>
                <Location
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "ContactListDemo.EPContactsPicker.tableView(__ObjC.UITableView, didSelectRowAt: Foundation.IndexPath) -&gt; ()"
+                  symbolName = "ContactListDemo.EPContactsPicker.init(delegate: Swift.Optional&lt;ContactListDemo.EPPickerDelegate&gt;) -&gt; ContactListDemo.EPContactsPicker"
                   moduleName = "ContactListDemo"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/pragati/Desktop/ContactListDemo/Pods/EPContactsPicker/Pods/EPContactsPicker.swift"
-                  timestampString = "544953430.899948"
+                  timestampString = "544969386.224238"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "378"
-                  endingLineNumber = "378"
-                  offsetFromSymbolStart = "6208">
+                  startingLineNumber = "124"
+                  endingLineNumber = "124"
+                  offsetFromSymbolStart = "36">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "EPContactsPicker.EPContactsPicker.tableView(__ObjC.UITableView, didSelectRowAt: Foundation.IndexPath) -&gt; ()"
+                  symbolName = "EPContactsPicker.EPContactsPicker.init(delegate: Swift.Optional&lt;EPContactsPicker.EPPickerDelegate&gt;) -&gt; EPContactsPicker.EPContactsPicker"
                   moduleName = "EPContactsPicker"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/pragati/Desktop/ContactListDemo/Pods/EPContactsPicker/Pods/EPContactsPicker.swift"
-                  timestampString = "544953430.903262"
+                  timestampString = "544969386.45814"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "378"
-                  endingLineNumber = "378"
-                  offsetFromSymbolStart = "6208">
+                  startingLineNumber = "124"
+                  endingLineNumber = "124"
+                  offsetFromSymbolStart = "36">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/EPContactsPicker/Pods/EPContactsPicker.swift"
+            timestampString = "544969494.188133"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "294"
+            endingLineNumber = "294"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ContactListDemo.EPContactsPicker.tableView(__ObjC.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __ObjC.UITableViewCell"
+                  moduleName = "ContactListDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pragati/Desktop/ContactListDemo/Pods/EPContactsPicker/Pods/EPContactsPicker.swift"
+                  timestampString = "544968410.914673"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "294"
+                  endingLineNumber = "294"
+                  offsetFromSymbolStart = "1588">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EPContactsPicker.EPContactsPicker.tableView(__ObjC.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __ObjC.UITableViewCell"
+                  moduleName = "EPContactsPicker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pragati/Desktop/ContactListDemo/Pods/EPContactsPicker/Pods/EPContactsPicker.swift"
+                  timestampString = "544968411.362511"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "294"
+                  endingLineNumber = "294"
+                  offsetFromSymbolStart = "1588">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/EPContactsPicker/Pods/EPContactCell.swift"
+            timestampString = "544967413.590192"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "updateContactsinUI(_:indexPath:subtitleType:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ContactListDemo.EPContactCell.updateContactsinUI(ContactListDemo.EPContact, indexPath: Foundation.IndexPath, subtitleType: ContactListDemo.SubtitleCellValue) -&gt; ()"
+                  moduleName = "ContactListDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pragati/Desktop/ContactListDemo/Pods/EPContactsPicker/Pods/EPContactCell.swift"
+                  timestampString = "544966323.486138"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EPContactsPicker.EPContactCell.updateContactsinUI(EPContactsPicker.EPContact, indexPath: Foundation.IndexPath, subtitleType: EPContactsPicker.SubtitleCellValue) -&gt; ()"
+                  moduleName = "EPContactsPicker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pragati/Desktop/ContactListDemo/Pods/EPContactsPicker/Pods/EPContactCell.swift"
+                  timestampString = "544966323.489586"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "132">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/EPContactsPicker/Pods/EPContactsPicker.swift"
+            timestampString = "544969494.1882271"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "312"
+            endingLineNumber = "312"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ContactListDemo.EPContactsPicker.tableView(__ObjC.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __ObjC.UITableViewCell"
+                  moduleName = "ContactListDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pragati/Desktop/ContactListDemo/Pods/EPContactsPicker/Pods/EPContactsPicker.swift"
+                  timestampString = "544968410.919968"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "311"
+                  endingLineNumber = "311"
+                  offsetFromSymbolStart = "3392">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EPContactsPicker.EPContactsPicker.tableView(__ObjC.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __ObjC.UITableViewCell"
+                  moduleName = "EPContactsPicker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pragati/Desktop/ContactListDemo/Pods/EPContactsPicker/Pods/EPContactsPicker.swift"
+                  timestampString = "544968411.367972"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "311"
+                  endingLineNumber = "311"
+                  offsetFromSymbolStart = "3392">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ContactListDemo/ViewController.swift"
+            timestampString = "544969494.188295"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "epContactPicker(_:didSelectMultipleContacts:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
