@@ -1,0 +1,1057 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04D8B64F91CE775B601BE97D70F835C1 /* EPContactCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0FBF4EA87D32CD78687F4A8B6CC2825 /* EPContactCell.xib */; };
+		098520FE8791ED391F3205FB85318A5A /* EPContactsPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D7657EF2A53C496E58538F1B1CAD90AD /* EPContactsPicker.bundle */; };
+		0DA69F5B4C7FD038809B93559A967DEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 799BE352D759558E0BD6491016E77F1B /* Foundation.framework */; };
+		12AAE341AA13E248CB2C22BE17277B5A /* Pods-ContactListDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FFF6621142BFB205438B9F6FF119A311 /* Pods-ContactListDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		257521C1DEE0681FCBE2FF4E1BEE7A87 /* Pods-ContactListDemoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ADC256E00807A3542F3D86827304CB7 /* Pods-ContactListDemoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32849C80D8C715FE96B7BA5F6DE37F43 /* EPContactsPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 87985B78751CCC89ED41E72CA62CBA61 /* EPContactsPicker-dummy.m */; };
+		32AAE86F0D30C7E4BD0312994F23EFF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 799BE352D759558E0BD6491016E77F1B /* Foundation.framework */; };
+		37EB61EAD682360093E3EDF5EF33CC40 /* Pods-ContactListDemoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25E83949DD0AA658BE19E732054B519E /* Pods-ContactListDemoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		500DBD6BAC285F727396956A6C488BAA /* Pods-ContactListDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BC7AF373AC85A881412544B3FE1A150 /* Pods-ContactListDemoTests-dummy.m */; };
+		7C1B5FD79400C7BCF716D05F0A3C84E3 /* EPContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B587B37A894F15BD2C74D52DE2E0AF4 /* EPContact.swift */; };
+		82C237B51FD4E6765F4065FFAD9FE098 /* Pods-ContactListDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FBD9BF8D59AD53C5DA484504FC39D1D /* Pods-ContactListDemo-dummy.m */; };
+		8A70728CDA14F12BD0EE825C88C768F6 /* EPContactsPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A708B92CFFBE5B9208604998202C62D /* EPContactsPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CEFB1A260DE70914876CA6FE778C618 /* EPContactsPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28FE187BC319A90B2C45D913BAE3039 /* EPContactsPicker.swift */; };
+		993057D7167B5B2E6CADC3D686B072A2 /* EPContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7E6B3CCCBAF764E45736D883AF7CFB /* EPContactCell.swift */; };
+		A2198894FA80240D3463F218D4330ED8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 799BE352D759558E0BD6491016E77F1B /* Foundation.framework */; };
+		ABCD4896D839A95F71CDAED49E85DC75 /* Pods-ContactListDemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A5508ED4F5118DE4D7390EFC9D300D /* Pods-ContactListDemoUITests-dummy.m */; };
+		C36D91E2F8EA946B0D74005985C049ED /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E180E5E279CA6F78388B81F6FB6D93CF /* Contacts.framework */; };
+		C547479FE26EF348FDDC05AC83BA07DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 799BE352D759558E0BD6491016E77F1B /* Foundation.framework */; };
+		CD93D728FA3273BAC4D479EAD3B824D3 /* EPExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252272B5F1A4B10CB3B566512F2DD47F /* EPExtensions.swift */; };
+		D1CE7D568DDA80A9450876967DE426C3 /* ContactsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AE6DD62B9DF459AEC4720A691A45A2B /* ContactsUI.framework */; };
+		DA0098F163A0EC0741B022D2FC0D60FA /* EPContactCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0FBF4EA87D32CD78687F4A8B6CC2825 /* EPContactCell.xib */; };
+		E8C1B354AC6AF241578B38DE8C5D15AC /* EPConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EBA5327F76269C44F3065FB29805BA /* EPConstants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		85844CE468F7F0EC1CBE5829BCECF0EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1ED7210FC5C9C6ADCEB3CDAD87B99D60;
+			remoteInfo = "EPContactsPicker-EPContactsPicker";
+		};
+		A8921E1D0FF83EFBED0CA0F1D5099250 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B49654B82B0313D988195D5587273EF;
+			remoteInfo = EPContactsPicker;
+		};
+		EAA48E1A9775E3871F9CB0E6DC6015B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00E60BC45CE449447BCCD85C8808A669;
+			remoteInfo = "Pods-ContactListDemo";
+		};
+		F113F9419177874DC53AFC98CE413DE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00E60BC45CE449447BCCD85C8808A669;
+			remoteInfo = "Pods-ContactListDemo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		021E897C9165070700509C5194A78175 /* Pods-ContactListDemoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ContactListDemoUITests-frameworks.sh"; sourceTree = "<group>"; };
+		06EBA5327F76269C44F3065FB29805BA /* EPConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EPConstants.swift; path = Pods/EPConstants.swift; sourceTree = "<group>"; };
+		1BBC045DB26A9CC2C944F27C212B4E07 /* Pods-ContactListDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ContactListDemo.modulemap"; sourceTree = "<group>"; };
+		24B02CD3C475090501D9E35082D1535D /* Pods-ContactListDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ContactListDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		252272B5F1A4B10CB3B566512F2DD47F /* EPExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EPExtensions.swift; path = Pods/EPExtensions.swift; sourceTree = "<group>"; };
+		25E83949DD0AA658BE19E732054B519E /* Pods-ContactListDemoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ContactListDemoTests-umbrella.h"; sourceTree = "<group>"; };
+		27A34718787AE7873D37A4F7C51FA27F /* Pods-ContactListDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ContactListDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2AE6DD62B9DF459AEC4720A691A45A2B /* ContactsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ContactsUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/ContactsUI.framework; sourceTree = DEVELOPER_DIR; };
+		2F8982EB2A308D4805259F0BA36186E1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33CFAE873D44E061F34C901AD3435A14 /* Pods-ContactListDemoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ContactListDemoUITests.modulemap"; sourceTree = "<group>"; };
+		3B863E22A2EBD97B15CFC1467B824BA6 /* Pods_ContactListDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ContactListDemo.framework; path = "Pods-ContactListDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C9DDAC04C0FFEAEC8501BBFF051DD57 /* Pods_ContactListDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ContactListDemoUITests.framework; path = "Pods-ContactListDemoUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4735D4BD5D3990B0830A1A7D3C4A7B41 /* Pods-ContactListDemoTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ContactListDemoTests-resources.sh"; sourceTree = "<group>"; };
+		4D7E7155CC95CB2D641EFE9B6AF1A048 /* Pods-ContactListDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ContactListDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5848EA820A0C3980569752AB3BCDDE95 /* Pods-ContactListDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ContactListDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5A708B92CFFBE5B9208604998202C62D /* EPContactsPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EPContactsPicker-umbrella.h"; sourceTree = "<group>"; };
+		6126285CFE25AA5966799AFA43EC2C75 /* Pods-ContactListDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ContactListDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		65A5508ED4F5118DE4D7390EFC9D300D /* Pods-ContactListDemoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ContactListDemoUITests-dummy.m"; sourceTree = "<group>"; };
+		6BC7AF373AC85A881412544B3FE1A150 /* Pods-ContactListDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ContactListDemoTests-dummy.m"; sourceTree = "<group>"; };
+		74C126DD3F632B032C068A1BF085FCC5 /* EPContactsPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EPContactsPicker.modulemap; sourceTree = "<group>"; };
+		799BE352D759558E0BD6491016E77F1B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		79A2B87534AE3891B141312FB93FCB97 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ADC256E00807A3542F3D86827304CB7 /* Pods-ContactListDemoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ContactListDemoUITests-umbrella.h"; sourceTree = "<group>"; };
+		7F40C754672BBD8F6B81A8EED816A3EC /* Pods-ContactListDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ContactListDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7FBD9BF8D59AD53C5DA484504FC39D1D /* Pods-ContactListDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ContactListDemo-dummy.m"; sourceTree = "<group>"; };
+		875B28AC83266A3E783B98406839E0E0 /* Pods-ContactListDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ContactListDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		87985B78751CCC89ED41E72CA62CBA61 /* EPContactsPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EPContactsPicker-dummy.m"; sourceTree = "<group>"; };
+		8D7E6B3CCCBAF764E45736D883AF7CFB /* EPContactCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EPContactCell.swift; path = Pods/EPContactCell.swift; sourceTree = "<group>"; };
+		8DF0F74E0A9ABBD4E7292E39BEF9F7D0 /* Pods-ContactListDemoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ContactListDemoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8E833135FB034C58697ECF485D2D6C35 /* EPContactsPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EPContactsPicker-prefix.pch"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		970F80B6901B4378B2E6F1C52BB3EDCB /* EPContactsPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EPContactsPicker.framework; path = EPContactsPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B587B37A894F15BD2C74D52DE2E0AF4 /* EPContact.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EPContact.swift; path = Pods/EPContact.swift; sourceTree = "<group>"; };
+		A24B9F0D6465278A5DF065FE7F298CC8 /* Pods-ContactListDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ContactListDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		A2F8BCF2010AD8BE2004DDA93B344500 /* EPContactsPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EPContactsPicker.xcconfig; sourceTree = "<group>"; };
+		A48E6D6504FDEC618ACCC67DB1AE0B62 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9C16B725FCECE2426F5A83A49DDE391 /* Pods-ContactListDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ContactListDemo-frameworks.sh"; sourceTree = "<group>"; };
+		AAE364AE2B7DA1A4CFD974F6395BBDB0 /* Pods-ContactListDemoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ContactListDemoTests.modulemap"; sourceTree = "<group>"; };
+		B027F7211A57120D7E82C1FE2BCBD99B /* Pods-ContactListDemoUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ContactListDemoUITests-resources.sh"; sourceTree = "<group>"; };
+		B6BC3672A9590CE83EF0427B7FF8C0A0 /* Pods-ContactListDemoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ContactListDemoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B718F86EBBD02E8F8E81A489EAF179D7 /* Pods-ContactListDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ContactListDemo-resources.sh"; sourceTree = "<group>"; };
+		C21659BE656CC41B1E3A76DBF262CEE5 /* Pods-ContactListDemoTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ContactListDemoTests-frameworks.sh"; sourceTree = "<group>"; };
+		CD7171AAA0D066F6B9D77A54DBFC68F4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D07C84BCDE1701AF8AB8AF1F99D15CEA /* Pods-ContactListDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ContactListDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		D28FE187BC319A90B2C45D913BAE3039 /* EPContactsPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EPContactsPicker.swift; path = Pods/EPContactsPicker.swift; sourceTree = "<group>"; };
+		D7657EF2A53C496E58538F1B1CAD90AD /* EPContactsPicker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = EPContactsPicker.bundle; path = "EPContactsPicker-EPContactsPicker.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0FBF4EA87D32CD78687F4A8B6CC2825 /* EPContactCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = EPContactCell.xib; path = Pods/EPContactCell.xib; sourceTree = "<group>"; };
+		E180E5E279CA6F78388B81F6FB6D93CF /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Contacts.framework; sourceTree = DEVELOPER_DIR; };
+		E1C182B448B95F296FC618380536F653 /* ResourceBundle-EPContactsPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-EPContactsPicker-Info.plist"; sourceTree = "<group>"; };
+		FA9F6D6B74B2C388217FF04C04BEDCF2 /* Pods-ContactListDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ContactListDemo.release.xcconfig"; sourceTree = "<group>"; };
+		FEDE0B21F1D2B00453166325E50E4D5E /* Pods_ContactListDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ContactListDemoTests.framework; path = "Pods-ContactListDemoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFF6621142BFB205438B9F6FF119A311 /* Pods-ContactListDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ContactListDemo-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40AFABE5917A5AA39CD5932A31C0F10F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54EC7CED97703F01AA05AD8313682ABE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C36D91E2F8EA946B0D74005985C049ED /* Contacts.framework in Frameworks */,
+				D1CE7D568DDA80A9450876967DE426C3 /* ContactsUI.framework in Frameworks */,
+				32AAE86F0D30C7E4BD0312994F23EFF3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC3F04C1C1CE47553B4AA7BEDEEB129A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2198894FA80240D3463F218D4330ED8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1F3F94DDE75E3F8D4845EBDBF78BEF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DA69F5B4C7FD038809B93559A967DEB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8174051829B0C87FCD486E8BEC8EDE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C547479FE26EF348FDDC05AC83BA07DB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				784DE4527ACFC246BF5F23FC5389D8C3 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		34D2AD04F226B2DBEE4B33656019ED6E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B6355B4D013295933CF7726734203148 /* EPContactsPicker */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3935ECBFB3D73EF2939C7DFA8E3AA036 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6FEFEB1CBA9CCB9E2007163B9969F2F /* Pods-ContactListDemo */,
+				BA78680CF59B161312FB125C5E191799 /* Pods-ContactListDemoTests */,
+				B1F9BA9B9F86358CE5667FE2F1BBDA61 /* Pods-ContactListDemoUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3E0BD43AE8CBFCCE01752B186B238E70 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E0FBF4EA87D32CD78687F4A8B6CC2825 /* EPContactCell.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		53418A539945362306B585D7FF96312F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				74C126DD3F632B032C068A1BF085FCC5 /* EPContactsPicker.modulemap */,
+				A2F8BCF2010AD8BE2004DDA93B344500 /* EPContactsPicker.xcconfig */,
+				87985B78751CCC89ED41E72CA62CBA61 /* EPContactsPicker-dummy.m */,
+				8E833135FB034C58697ECF485D2D6C35 /* EPContactsPicker-prefix.pch */,
+				5A708B92CFFBE5B9208604998202C62D /* EPContactsPicker-umbrella.h */,
+				A48E6D6504FDEC618ACCC67DB1AE0B62 /* Info.plist */,
+				E1C182B448B95F296FC618380536F653 /* ResourceBundle-EPContactsPicker-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/EPContactsPicker";
+			sourceTree = "<group>";
+		};
+		784DE4527ACFC246BF5F23FC5389D8C3 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E180E5E279CA6F78388B81F6FB6D93CF /* Contacts.framework */,
+				2AE6DD62B9DF459AEC4720A691A45A2B /* ContactsUI.framework */,
+				799BE352D759558E0BD6491016E77F1B /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				34D2AD04F226B2DBEE4B33656019ED6E /* Pods */,
+				8067BC3F9B644618D78E9C358733A89E /* Products */,
+				3935ECBFB3D73EF2939C7DFA8E3AA036 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8067BC3F9B644618D78E9C358733A89E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7657EF2A53C496E58538F1B1CAD90AD /* EPContactsPicker.bundle */,
+				970F80B6901B4378B2E6F1C52BB3EDCB /* EPContactsPicker.framework */,
+				3B863E22A2EBD97B15CFC1467B824BA6 /* Pods_ContactListDemo.framework */,
+				FEDE0B21F1D2B00453166325E50E4D5E /* Pods_ContactListDemoTests.framework */,
+				3C9DDAC04C0FFEAEC8501BBFF051DD57 /* Pods_ContactListDemoUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1F9BA9B9F86358CE5667FE2F1BBDA61 /* Pods-ContactListDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD7171AAA0D066F6B9D77A54DBFC68F4 /* Info.plist */,
+				33CFAE873D44E061F34C901AD3435A14 /* Pods-ContactListDemoUITests.modulemap */,
+				B6BC3672A9590CE83EF0427B7FF8C0A0 /* Pods-ContactListDemoUITests-acknowledgements.markdown */,
+				8DF0F74E0A9ABBD4E7292E39BEF9F7D0 /* Pods-ContactListDemoUITests-acknowledgements.plist */,
+				65A5508ED4F5118DE4D7390EFC9D300D /* Pods-ContactListDemoUITests-dummy.m */,
+				021E897C9165070700509C5194A78175 /* Pods-ContactListDemoUITests-frameworks.sh */,
+				B027F7211A57120D7E82C1FE2BCBD99B /* Pods-ContactListDemoUITests-resources.sh */,
+				7ADC256E00807A3542F3D86827304CB7 /* Pods-ContactListDemoUITests-umbrella.h */,
+				4D7E7155CC95CB2D641EFE9B6AF1A048 /* Pods-ContactListDemoUITests.debug.xcconfig */,
+				875B28AC83266A3E783B98406839E0E0 /* Pods-ContactListDemoUITests.release.xcconfig */,
+			);
+			name = "Pods-ContactListDemoUITests";
+			path = "Target Support Files/Pods-ContactListDemoUITests";
+			sourceTree = "<group>";
+		};
+		B6355B4D013295933CF7726734203148 /* EPContactsPicker */ = {
+			isa = PBXGroup;
+			children = (
+				06EBA5327F76269C44F3065FB29805BA /* EPConstants.swift */,
+				9B587B37A894F15BD2C74D52DE2E0AF4 /* EPContact.swift */,
+				8D7E6B3CCCBAF764E45736D883AF7CFB /* EPContactCell.swift */,
+				D28FE187BC319A90B2C45D913BAE3039 /* EPContactsPicker.swift */,
+				252272B5F1A4B10CB3B566512F2DD47F /* EPExtensions.swift */,
+				3E0BD43AE8CBFCCE01752B186B238E70 /* Resources */,
+				53418A539945362306B585D7FF96312F /* Support Files */,
+			);
+			name = EPContactsPicker;
+			path = EPContactsPicker;
+			sourceTree = "<group>";
+		};
+		B6FEFEB1CBA9CCB9E2007163B9969F2F /* Pods-ContactListDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2F8982EB2A308D4805259F0BA36186E1 /* Info.plist */,
+				1BBC045DB26A9CC2C944F27C212B4E07 /* Pods-ContactListDemo.modulemap */,
+				6126285CFE25AA5966799AFA43EC2C75 /* Pods-ContactListDemo-acknowledgements.markdown */,
+				24B02CD3C475090501D9E35082D1535D /* Pods-ContactListDemo-acknowledgements.plist */,
+				7FBD9BF8D59AD53C5DA484504FC39D1D /* Pods-ContactListDemo-dummy.m */,
+				A9C16B725FCECE2426F5A83A49DDE391 /* Pods-ContactListDemo-frameworks.sh */,
+				B718F86EBBD02E8F8E81A489EAF179D7 /* Pods-ContactListDemo-resources.sh */,
+				FFF6621142BFB205438B9F6FF119A311 /* Pods-ContactListDemo-umbrella.h */,
+				A24B9F0D6465278A5DF065FE7F298CC8 /* Pods-ContactListDemo.debug.xcconfig */,
+				FA9F6D6B74B2C388217FF04C04BEDCF2 /* Pods-ContactListDemo.release.xcconfig */,
+			);
+			name = "Pods-ContactListDemo";
+			path = "Target Support Files/Pods-ContactListDemo";
+			sourceTree = "<group>";
+		};
+		BA78680CF59B161312FB125C5E191799 /* Pods-ContactListDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				79A2B87534AE3891B141312FB93FCB97 /* Info.plist */,
+				AAE364AE2B7DA1A4CFD974F6395BBDB0 /* Pods-ContactListDemoTests.modulemap */,
+				27A34718787AE7873D37A4F7C51FA27F /* Pods-ContactListDemoTests-acknowledgements.markdown */,
+				7F40C754672BBD8F6B81A8EED816A3EC /* Pods-ContactListDemoTests-acknowledgements.plist */,
+				6BC7AF373AC85A881412544B3FE1A150 /* Pods-ContactListDemoTests-dummy.m */,
+				C21659BE656CC41B1E3A76DBF262CEE5 /* Pods-ContactListDemoTests-frameworks.sh */,
+				4735D4BD5D3990B0830A1A7D3C4A7B41 /* Pods-ContactListDemoTests-resources.sh */,
+				25E83949DD0AA658BE19E732054B519E /* Pods-ContactListDemoTests-umbrella.h */,
+				5848EA820A0C3980569752AB3BCDDE95 /* Pods-ContactListDemoTests.debug.xcconfig */,
+				D07C84BCDE1701AF8AB8AF1F99D15CEA /* Pods-ContactListDemoTests.release.xcconfig */,
+			);
+			name = "Pods-ContactListDemoTests";
+			path = "Target Support Files/Pods-ContactListDemoTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0D4136920D270A8230AA025AED36CE0C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12AAE341AA13E248CB2C22BE17277B5A /* Pods-ContactListDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ED5F4B3ACD6FBBCE81F27DB69045AC8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37EB61EAD682360093E3EDF5EF33CC40 /* Pods-ContactListDemoTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A51A3B049EE8839BF022372CAD3FFF9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				257521C1DEE0681FCBE2FF4E1BEE7A87 /* Pods-ContactListDemoUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7FD6A5C25CEAF31A7714ACE3F41D7DE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A70728CDA14F12BD0EE825C88C768F6 /* EPContactsPicker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		00E60BC45CE449447BCCD85C8808A669 /* Pods-ContactListDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C36BF792657DE09DBF7F8BEC485907E /* Build configuration list for PBXNativeTarget "Pods-ContactListDemo" */;
+			buildPhases = (
+				3277798AADF54484668704482DD98DEE /* Sources */,
+				E8174051829B0C87FCD486E8BEC8EDE1 /* Frameworks */,
+				0D4136920D270A8230AA025AED36CE0C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88EC830C29A53700DB36050EAB0D5E3F /* PBXTargetDependency */,
+			);
+			name = "Pods-ContactListDemo";
+			productName = "Pods-ContactListDemo";
+			productReference = 3B863E22A2EBD97B15CFC1467B824BA6 /* Pods_ContactListDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1ED7210FC5C9C6ADCEB3CDAD87B99D60 /* EPContactsPicker-EPContactsPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10DB5FE5B45CEADD7E12099097CE7C4E /* Build configuration list for PBXNativeTarget "EPContactsPicker-EPContactsPicker" */;
+			buildPhases = (
+				A60D19AABA1A38FF496566FAA5FCE198 /* Sources */,
+				40AFABE5917A5AA39CD5932A31C0F10F /* Frameworks */,
+				E54E37375365CB2F49AFB33E7962550D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EPContactsPicker-EPContactsPicker";
+			productName = "EPContactsPicker-EPContactsPicker";
+			productReference = D7657EF2A53C496E58538F1B1CAD90AD /* EPContactsPicker.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		2191FEED3619DA2A15DFA71F9132BCE1 /* Pods-ContactListDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25A1558C7C0C3D5523572DF929D59916 /* Build configuration list for PBXNativeTarget "Pods-ContactListDemoTests" */;
+			buildPhases = (
+				59EE985BC329F3A6D86B745D9893D907 /* Sources */,
+				DC3F04C1C1CE47553B4AA7BEDEEB129A /* Frameworks */,
+				0ED5F4B3ACD6FBBCE81F27DB69045AC8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CB0714A898D0117BC1A0B76F640A27C /* PBXTargetDependency */,
+			);
+			name = "Pods-ContactListDemoTests";
+			productName = "Pods-ContactListDemoTests";
+			productReference = FEDE0B21F1D2B00453166325E50E4D5E /* Pods_ContactListDemoTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9B49654B82B0313D988195D5587273EF /* EPContactsPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D084BC31A81FE787D3638893B508C99 /* Build configuration list for PBXNativeTarget "EPContactsPicker" */;
+			buildPhases = (
+				28FF9C2F0C3CAC830C7530E030532B56 /* Sources */,
+				54EC7CED97703F01AA05AD8313682ABE /* Frameworks */,
+				E6DBF879BF4A9F167B619C3C4104DE2B /* Resources */,
+				E7FD6A5C25CEAF31A7714ACE3F41D7DE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0390907927C93458AEF4EBF195CB902D /* PBXTargetDependency */,
+			);
+			name = EPContactsPicker;
+			productName = EPContactsPicker;
+			productReference = 970F80B6901B4378B2E6F1C52BB3EDCB /* EPContactsPicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FA93D00A6EEF3BFE9E640CF38A90A572 /* Pods-ContactListDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64B7B6FA6AC578C40270D34C68F91F7C /* Build configuration list for PBXNativeTarget "Pods-ContactListDemoUITests" */;
+			buildPhases = (
+				BB39342E40D0BEADADC0D1E41172BB23 /* Sources */,
+				E1F3F94DDE75E3F8D4845EBDBF78BEF7 /* Frameworks */,
+				8A51A3B049EE8839BF022372CAD3FFF9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25EBB8E015DD252D92BBCB80679F88E2 /* PBXTargetDependency */,
+			);
+			name = "Pods-ContactListDemoUITests";
+			productName = "Pods-ContactListDemoUITests";
+			productReference = 3C9DDAC04C0FFEAEC8501BBFF051DD57 /* Pods_ContactListDemoUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 8067BC3F9B644618D78E9C358733A89E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B49654B82B0313D988195D5587273EF /* EPContactsPicker */,
+				1ED7210FC5C9C6ADCEB3CDAD87B99D60 /* EPContactsPicker-EPContactsPicker */,
+				00E60BC45CE449447BCCD85C8808A669 /* Pods-ContactListDemo */,
+				2191FEED3619DA2A15DFA71F9132BCE1 /* Pods-ContactListDemoTests */,
+				FA93D00A6EEF3BFE9E640CF38A90A572 /* Pods-ContactListDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E54E37375365CB2F49AFB33E7962550D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D8B64F91CE775B601BE97D70F835C1 /* EPContactCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6DBF879BF4A9F167B619C3C4104DE2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA0098F163A0EC0741B022D2FC0D60FA /* EPContactCell.xib in Resources */,
+				098520FE8791ED391F3205FB85318A5A /* EPContactsPicker.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28FF9C2F0C3CAC830C7530E030532B56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8C1B354AC6AF241578B38DE8C5D15AC /* EPConstants.swift in Sources */,
+				7C1B5FD79400C7BCF716D05F0A3C84E3 /* EPContact.swift in Sources */,
+				993057D7167B5B2E6CADC3D686B072A2 /* EPContactCell.swift in Sources */,
+				32849C80D8C715FE96B7BA5F6DE37F43 /* EPContactsPicker-dummy.m in Sources */,
+				8CEFB1A260DE70914876CA6FE778C618 /* EPContactsPicker.swift in Sources */,
+				CD93D728FA3273BAC4D479EAD3B824D3 /* EPExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3277798AADF54484668704482DD98DEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82C237B51FD4E6765F4065FFAD9FE098 /* Pods-ContactListDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59EE985BC329F3A6D86B745D9893D907 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				500DBD6BAC285F727396956A6C488BAA /* Pods-ContactListDemoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A60D19AABA1A38FF496566FAA5FCE198 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB39342E40D0BEADADC0D1E41172BB23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABCD4896D839A95F71CDAED49E85DC75 /* Pods-ContactListDemoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0390907927C93458AEF4EBF195CB902D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "EPContactsPicker-EPContactsPicker";
+			target = 1ED7210FC5C9C6ADCEB3CDAD87B99D60 /* EPContactsPicker-EPContactsPicker */;
+			targetProxy = 85844CE468F7F0EC1CBE5829BCECF0EA /* PBXContainerItemProxy */;
+		};
+		1CB0714A898D0117BC1A0B76F640A27C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ContactListDemo";
+			target = 00E60BC45CE449447BCCD85C8808A669 /* Pods-ContactListDemo */;
+			targetProxy = F113F9419177874DC53AFC98CE413DE6 /* PBXContainerItemProxy */;
+		};
+		25EBB8E015DD252D92BBCB80679F88E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ContactListDemo";
+			target = 00E60BC45CE449447BCCD85C8808A669 /* Pods-ContactListDemo */;
+			targetProxy = EAA48E1A9775E3871F9CB0E6DC6015B3 /* PBXContainerItemProxy */;
+		};
+		88EC830C29A53700DB36050EAB0D5E3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EPContactsPicker;
+			target = 9B49654B82B0313D988195D5587273EF /* EPContactsPicker */;
+			targetProxy = A8921E1D0FF83EFBED0CA0F1D5099250 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03295390CD88E0C34EA01CB89A91EB79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D07C84BCDE1701AF8AB8AF1F99D15CEA /* Pods-ContactListDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ContactListDemoTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ContactListDemoTests/Pods-ContactListDemoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		04527BE1F850EEC2905AF40F1ACA9DAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2F8BCF2010AD8BE2004DDA93B344500 /* EPContactsPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/EPContactsPicker";
+				INFOPLIST_FILE = "Target Support Files/EPContactsPicker/ResourceBundle-EPContactsPicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = EPContactsPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		1A1BA20FA9D9CFCACCAE000CEB6B131C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA9F6D6B74B2C388217FF04C04BEDCF2 /* Pods-ContactListDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ContactListDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ContactListDemo/Pods-ContactListDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2A00F46E3C6E572BB6DBBFDD8562AF13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2F8BCF2010AD8BE2004DDA93B344500 /* EPContactsPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EPContactsPicker/EPContactsPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EPContactsPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EPContactsPicker/EPContactsPicker.modulemap";
+				PRODUCT_MODULE_NAME = EPContactsPicker;
+				PRODUCT_NAME = EPContactsPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2B1FD9AA7A3A726AD6305A8D648A2D18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A24B9F0D6465278A5DF065FE7F298CC8 /* Pods-ContactListDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ContactListDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ContactListDemo/Pods-ContactListDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		584B4FC3AA57253DD33C1DC8973CE088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D7E7155CC95CB2D641EFE9B6AF1A048 /* Pods-ContactListDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ContactListDemoUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ContactListDemoUITests/Pods-ContactListDemoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		691EE0234A3BA1A3B057D3A4C23C9CCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		703082A85162812D3B777E668767AD25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A6ACEBD2027C3DB75E53108F341CE87A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 875B28AC83266A3E783B98406839E0E0 /* Pods-ContactListDemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ContactListDemoUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ContactListDemoUITests/Pods-ContactListDemoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BC5BAF2669E8399B58B3D80A78DD1AD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2F8BCF2010AD8BE2004DDA93B344500 /* EPContactsPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EPContactsPicker/EPContactsPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EPContactsPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EPContactsPicker/EPContactsPicker.modulemap";
+				PRODUCT_MODULE_NAME = EPContactsPicker;
+				PRODUCT_NAME = EPContactsPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C46CE904DED9E4A62A9E090E33E2078F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5848EA820A0C3980569752AB3BCDDE95 /* Pods-ContactListDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ContactListDemoTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ContactListDemoTests/Pods-ContactListDemoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D3270CCC9525BE4AE118AF8C2390761C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2F8BCF2010AD8BE2004DDA93B344500 /* EPContactsPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/EPContactsPicker";
+				INFOPLIST_FILE = "Target Support Files/EPContactsPicker/ResourceBundle-EPContactsPicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = EPContactsPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10DB5FE5B45CEADD7E12099097CE7C4E /* Build configuration list for PBXNativeTarget "EPContactsPicker-EPContactsPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3270CCC9525BE4AE118AF8C2390761C /* Debug */,
+				04527BE1F850EEC2905AF40F1ACA9DAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25A1558C7C0C3D5523572DF929D59916 /* Build configuration list for PBXNativeTarget "Pods-ContactListDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C46CE904DED9E4A62A9E090E33E2078F /* Debug */,
+				03295390CD88E0C34EA01CB89A91EB79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				691EE0234A3BA1A3B057D3A4C23C9CCC /* Debug */,
+				703082A85162812D3B777E668767AD25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C36BF792657DE09DBF7F8BEC485907E /* Build configuration list for PBXNativeTarget "Pods-ContactListDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B1FD9AA7A3A726AD6305A8D648A2D18 /* Debug */,
+				1A1BA20FA9D9CFCACCAE000CEB6B131C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64B7B6FA6AC578C40270D34C68F91F7C /* Build configuration list for PBXNativeTarget "Pods-ContactListDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				584B4FC3AA57253DD33C1DC8973CE088 /* Debug */,
+				A6ACEBD2027C3DB75E53108F341CE87A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D084BC31A81FE787D3638893B508C99 /* Build configuration list for PBXNativeTarget "EPContactsPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC5BAF2669E8399B58B3D80A78DD1AD4 /* Debug */,
+				2A00F46E3C6E572BB6DBBFDD8562AF13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
